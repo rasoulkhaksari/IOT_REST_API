@@ -1,0 +1,46 @@
+version: '3.7'
+
+services:
+  db:
+    image: postgres:10.19-alpine3.15
+    container_name: iot_db
+    env_file: ./.env
+    volumes:
+      - ./provision/db-initialize.sql:/docker-entrypoint-initdb.d/1.sql
+    expose: [5432]
+  app:
+    build: .
+    image: iot_backend:latest
+    container_name: iot_app
+    command: >
+      /bin/bash -c "
+        ./wait-for-dependencies.sh db 5432;
+        python manage.py collectstatic --noinput;
+        python manage.py migrate;
+        python manage.py initsuperuser; 
+        python manage.py test -v 2; 
+        gunicorn --bind 0.0.0.0:8000 --workers=2 iot.wsgi;
+      "
+    env_file: ./.env
+    volumes:
+      - ./iot:/app
+    expose: [8000]
+    depends_on:
+      - db
+  web:
+    build: ./nginx
+    image: iot_webserver:latest
+    container_name: iot_web
+    volumes:
+      - ./iot/static:/app/static/
+    ports:
+      - 8008:80
+    depends_on:
+      - app
+  panel:
+    image: grafana/grafana:8.1.6
+    container_name: iot_panel
+    ports:
+      - 8009:3000
+    depends_on:
+      - web

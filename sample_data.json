@@ -1,0 +1,125 @@
+===== Customer 1 sample data =====
+
+[{
+    "timestamp": "2022-01-21T10:56:18.950901",
+    "reading": 0.63,
+    "device_id": "71bf19cb-e7e7-4334-af31-5ebba56a655d",
+    "customer_id": "b0c2bda5-0d6d-4c6a-86d4-76489ea2b9df"
+},
+{
+    "timestamp": "2022-01-21T10:57:18.950901",
+    "reading": 0.9,
+    "device_id": "71bf19cb-e7e7-4334-af31-5ebba56a655d",
+    "customer_id": "b0c2bda5-0d6d-4c6a-86d4-76489ea2b9df"
+},
+{
+    "timestamp": "2022-01-21T10:58:18.950901",
+    "reading": 0.9,
+    "device_id": "71bf19cb-e7e7-4334-af31-5ebba56a655d",
+    "customer_id": "b0c2bda5-0d6d-4c6a-86d4-76489ea2b9df"
+},
+{
+    "timestamp": "2022-01-21T10:59:18.950901",
+    "reading": 0.32,
+    "device_id": "71bf19cb-e7e7-4334-af31-5ebba56a655d",
+    "customer_id": "b0c2bda5-0d6d-4c6a-86d4-76489ea2b9df"
+},
+{
+    "timestamp": "2022-01-21T11:00:18.950901",
+    "reading": 0.96,
+    "device_id": "1cf67335-0793-42ad-80f3-3156cabc9da9",
+    "customer_id": "b0c2bda5-0d6d-4c6a-86d4-76489ea2b9df"
+},
+{
+    "timestamp": "2022-01-21T11:01:18.950901",
+    "reading": 0.45,
+    "device_id": "1cf67335-0793-42ad-80f3-3156cabc9da9",
+    "customer_id": "b0c2bda5-0d6d-4c6a-86d4-76489ea2b9df"
+},
+{
+    "timestamp": "2022-01-21T11:02:18.950901",
+    "reading": 0.55,
+    "device_id": "1cf67335-0793-42ad-80f3-3156cabc9da9",
+    "customer_id": "b0c2bda5-0d6d-4c6a-86d4-76489ea2b9df"
+},
+{
+    "timestamp": "2022-01-21T11:03:18.950901",
+    "reading": 0.94,
+    "device_id": "71bf19cb-e7e7-4334-af31-5ebba56a655d",
+    "customer_id": "b0c2bda5-0d6d-4c6a-86d4-76489ea2b9df"
+},
+{
+    "timestamp": "2022-01-21T11:04:18.950901",
+    "reading": 0.61,
+    "device_id": "94324014-0b4c-4b7e-840c-ff82f5304b06",
+    "customer_id": "b0c2bda5-0d6d-4c6a-86d4-76489ea2b9df"
+},
+{
+    "timestamp": "2022-01-21T11:05:18.950901",
+    "reading": 0.09,
+    "device_id": "71bf19cb-e7e7-4334-af31-5ebba56a655d",
+    "customer_id": "b0c2bda5-0d6d-4c6a-86d4-76489ea2b9df"
+}]
+
+===== Customer 2 sample data =====
+
+[{
+    "timestamp": "2022-01-21T11:34:29.157348",
+    "reading": 0.94,
+    "device_id": "4acbdd44-da1c-4241-a969-5a363be4545e",
+    "customer_id": "09a96248-2a72-4288-ac9b-02f2779161e3"
+},
+{
+    "timestamp": "2022-01-21T11:35:29.157348",
+    "reading": 0.35,
+    "device_id": "4acbdd44-da1c-4241-a969-5a363be4545e",
+    "customer_id": "09a96248-2a72-4288-ac9b-02f2779161e3"
+},
+{
+    "timestamp": "2022-01-21T11:36:29.157348",
+    "reading": 0.22,
+    "device_id": "c29d16fe-906e-4058-9bd2-cb6949e54718",
+    "customer_id": "09a96248-2a72-4288-ac9b-02f2779161e3"
+},
+{
+    "timestamp": "2022-01-21T11:37:29.157348",
+    "reading": 0.93,
+    "device_id": "4acbdd44-da1c-4241-a969-5a363be4545e",
+    "customer_id": "09a96248-2a72-4288-ac9b-02f2779161e3"
+},
+{
+    "timestamp": "2022-01-21T11:38:29.157348",
+    "reading": 0.16,
+    "device_id": "b983f004-6d74-447f-8526-198ec47e15d2",
+    "customer_id": "09a96248-2a72-4288-ac9b-02f2779161e3"
+},
+{
+    "timestamp": "2022-01-21T11:39:29.157348",
+    "reading": 0.22,
+    "device_id": "c29d16fe-906e-4058-9bd2-cb6949e54718",
+    "customer_id": "09a96248-2a72-4288-ac9b-02f2779161e3"
+},
+{
+    "timestamp": "2022-01-21T11:40:29.157348",
+    "reading": 0.81,
+    "device_id": "b983f004-6d74-447f-8526-198ec47e15d2",
+    "customer_id": "09a96248-2a72-4288-ac9b-02f2779161e3"
+},
+{
+    "timestamp": "2022-01-21T11:41:29.157348",
+    "reading": 0.45,
+    "device_id": "b983f004-6d74-447f-8526-198ec47e15d2",
+    "customer_id": "09a96248-2a72-4288-ac9b-02f2779161e3"
+},
+{
+    "timestamp": "2022-01-21T11:42:29.157348",
+    "reading": 0.58,
+    "device_id": "b983f004-6d74-447f-8526-198ec47e15d2",
+    "customer_id": "09a96248-2a72-4288-ac9b-02f2779161e3"
+},
+{
+    "timestamp": "2022-01-21T11:43:29.157348",
+    "reading": 0.04,
+    "device_id": "c29d16fe-906e-4058-9bd2-cb6949e54718",
+    "customer_id": "09a96248-2a72-4288-ac9b-02f2779161e3"
+}]

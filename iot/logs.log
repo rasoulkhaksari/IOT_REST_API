@@ -1,0 +1,2 @@
+2022-02-07 12:17:51,366 backend.views ERROR    75 None of ['timestamp'] are in the columns
+2022-02-07 12:17:51,366 django.request ERROR    225 Internal Server Error: /api/devices/
